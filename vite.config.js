@@ -7,7 +7,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  
+
+  base: process.env.VERCEL ? '/' : '/cubiq-portofolio/',
+
   server: {
     watch: {
         usePolling: true,
