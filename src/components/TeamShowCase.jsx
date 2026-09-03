@@ -193,7 +193,7 @@ function TeamShowCase({ member }) {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.1 }}
-                            className="max-w-xl text-6xl font-black uppercase leading-[0.9] tracking-[-0.04em] text-white sm:text-7xl lg:text-8xl"
+                            className="max-w-xl text-5xl font-black uppercase leading-[0.9] tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl"
                         >
                             {member.name}
                         </motion.h3>
@@ -280,21 +280,21 @@ function TeamShowCase({ member }) {
                         RIGHT SIDE
                     ========================= */}
 
-                    <div className="relative flex min-h-[500px] items-center justify-center lg:min-h-[600px]">
+                    <div className="relative flex min-h-[400px] items-center justify-center lg:min-h-[560px]">
 
                         {/* Outer Circle */}
                         <div
-                            className={`absolute h-[400px] w-[400px] rounded-full border ${colors.borderSoft} sm:h-[500px] sm:w-[500px] lg:h-[540px] lg:w-[540px]`}
+                            className={`absolute h-[300px] w-[300px] rounded-full border ${colors.borderSoft} sm:h-[400px] sm:w-[400px] lg:h-[460px] lg:w-[460px]`}
                         />
 
                         {/* Glow */}
                         <div
-                            className={`absolute h-[330px] w-[330px] rounded-full ${colors.glow} blur-[100px] sm:h-[420px] sm:w-[420px]`}
+                            className={`absolute h-[240px] w-[240px] rounded-full ${colors.glow} blur-[90px] sm:h-[320px] sm:w-[320px] lg:h-[380px] lg:w-[380px]`}
                         />
 
                         {/* =========================
-                            OUTER ARC
-                        ========================= */}
+                           OUTER ARC
+                           ========================= */}
 
                         <motion.div
                             animate={{ rotate: 360 }}
@@ -303,7 +303,7 @@ function TeamShowCase({ member }) {
                                 repeat: Infinity,
                                 ease: "linear",
                             }}
-                            className={`absolute h-[470px] w-[470px] rounded-full border ${colors.border} border-l-transparent border-b-transparent sm:h-[560px] sm:w-[560px]`}
+                            className={`absolute h-[330px] w-[330px] rounded-full border ${colors.border} border-l-transparent border-b-transparent sm:h-[440px] sm:w-[440px] lg:h-[500px] lg:w-[500px]`}
                         />
 
                         {/* Second Arc */}
@@ -314,12 +314,12 @@ function TeamShowCase({ member }) {
                                 repeat: Infinity,
                                 ease: "linear",
                             }}
-                            className={`absolute h-[390px] w-[390px] rounded-full border ${colors.borderSoft} border-r-transparent border-b-transparent sm:h-[470px] sm:w-[470px]`}
+                            className={`absolute h-[290px] w-[290px] rounded-full border ${colors.borderSoft} border-r-transparent border-b-transparent sm:h-[370px] sm:w-[370px] lg:h-[420px] lg:w-[420px]`}
                         />
 
                         {/* =========================
-                            PROFILE IMAGE
-                        ========================= */}
+                           PROFILE IMAGE
+                         ========================= */}
 
                         <AnimatePresence mode="wait">
                             <motion.div
@@ -339,7 +339,7 @@ function TeamShowCase({ member }) {
                                 transition={{
                                     duration: 0.5,
                                 }}
-                                className={`relative z-10 h-[300px] w-[300px] overflow-hidden rounded-full border-8 border-midnight ${colors.shadow} sm:h-[380px] sm:w-[380px] lg:h-[430px] lg:w-[430px]`}
+                                className={`relative z-10 h-[180px] w-[180px] overflow-hidden rounded-full border-8 border-midnight ${colors.shadow} sm:h-[280px] sm:w-[280px] lg:h-[340px] lg:w-[340px]`}
                             >
                                 <img
                                     src={member.profileImage}
@@ -351,10 +351,9 @@ function TeamShowCase({ member }) {
                             </motion.div>
                         </AnimatePresence>
 
-
                         {/* =========================
                             ORBIT ICONS
-                        ========================= */}
+                         ========================= */}
 
                         <motion.div
                             animate={{ rotate: 360 }}
@@ -367,35 +366,35 @@ function TeamShowCase({ member }) {
                         >
                             {/* User */}
                             <div
-                                className={`absolute left-[12%] top-[28%] flex h-11 w-11 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text} ${colors.shadow}`}
+                                className={`absolute left-[15%] top-[27%] flex h-10 w-10 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text} ${colors.shadow}`}
                             >
                                 <FiUser />
                             </div>
 
                             {/* Briefcase */}
                             <div
-                                className={`absolute right-[14%] top-[20%] flex h-11 w-11 items-center justify-center rounded-full border ${colors.borderSoft} bg-void ${colors.text}`}
+                                className={`absolute right-[17%] top-[20%] flex h-10 w-10 items-center justify-center rounded-full border ${colors.borderSoft} bg-void ${colors.text}`}
                             >
                                 <FiBriefcase />
                             </div>
 
                             {/* Message */}
                             <div
-                                className={`absolute right-[5%] top-[48%] flex h-11 w-11 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text}`}
+                                className={`absolute right-[8%] top-[48%] flex h-10 w-10 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text}`}
                             >
                                 <FiMessageCircle />
                             </div>
 
                             {/* Send */}
                             <div
-                                className={`absolute bottom-[13%] right-[20%] flex h-11 w-11 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text}`}
+                                className={`absolute bottom-[15%] right-[22%] flex h-10 w-10 items-center justify-center rounded-full border ${colors.border} bg-void ${colors.text}`}
                             >
                                 <FiSend />
                             </div>
 
                             {/* Arrow */}
                             <div
-                                className={`absolute bottom-[18%] left-[15%] flex h-11 w-11 items-center justify-center rounded-full border ${colors.borderSoft} bg-void ${colors.text}`}
+                                className={`absolute bottom-[20%] left-[19%] flex h-10 w-10 items-center justify-center rounded-full border ${colors.borderSoft} bg-void ${colors.text}`}
                             >
                                 <FiArrowUpRight />
                             </div>
@@ -412,6 +411,7 @@ function TeamShowCase({ member }) {
                             </span>
                         </div>
                     </div>
+
                 </motion.div>
             </AnimatePresence>
         </div>

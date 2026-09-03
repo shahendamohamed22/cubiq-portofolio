@@ -45,7 +45,7 @@ function About() {
                         The minds behind CubiQ
                     </p>
 
-                    <h2 className="max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
                         WE ARE{" "}
                         <span className="bg-gradient-to-r from-electric via-orchid to-magenta bg-clip-text text-transparent">
                             CubiQ

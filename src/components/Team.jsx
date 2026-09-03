@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import teamMembers from "../data/teamMembers";
+import teamMembers from "../data/teamMembers.js";
 import TeamMemberCard from "./TeamMemberCard";
 import TeamShowCase from "./TeamShowCase";
 
@@ -30,13 +30,13 @@ function Team() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.7 }}
-                    className="my-12"
+                    className="mt-12"
                 >
                     <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-electric">
                         The people behind the work
                     </p>
 
-                    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
                         MEET OUR{" "}
                         <span className="bg-gradient-to-r from-electric via-orchid to-magenta bg-clip-text text-transparent">
                             TEAM
@@ -53,7 +53,7 @@ function Team() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    className="mt-8 overflow-x-auto py-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+                    className="overflow-x-auto py-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
                 >
                     <div className="flex w-max gap-5">
                         {teamMembers.map((member, index) => (

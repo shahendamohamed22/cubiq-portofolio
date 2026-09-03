@@ -21,6 +21,7 @@ const teamMembers = [
     {
         id: "flash",
         name: "Flash",
+        color: "#F4B740",
         role: "Team Leader",
         cardImage: flashCard,
         profileImage: flashProfile,
@@ -36,6 +37,7 @@ const teamMembers = [
     {
         id: "goody",
         name: "Goody",
+        color: "#38BDF8",
         role: "Frontend Developer",
         cardImage: goodyCard,
         profileImage: goodyProfile,
@@ -51,6 +53,7 @@ const teamMembers = [
     {
         id: "nick",
         name: "Nick",
+        color: "#FB923C",
         role: "UI/UX Designer",
         cardImage: nickCard,
         profileImage: nickProfile,
@@ -60,12 +63,13 @@ const teamMembers = [
         github: "https://github.com/",
         linkedin: "https://linkedin.com/",
         whatsapp: "https://wa.me/201147119594",
-        isLeader: true,
+        isLeader: false,
     },
 
     {
         id: "luna",
         name: "Luna",
+        color: "#A78BFA",
         role: "Frontend Developer",
         cardImage: sheap,
         profileImage: sheap,
@@ -75,12 +79,13 @@ const teamMembers = [
         github: "https://github.com/",
         linkedin: "https://linkedin.com/",
         whatsapp: "https://wa.me/201147119594",
-        isLeader: false,
+        isLeader: true,
     },
 
     {
         id: "nova",
         name: "Nova",
+        color: "#34D399",
         role: "Backend Developer",
         cardImage: star,
         profileImage: star,
@@ -96,6 +101,7 @@ const teamMembers = [
     {
         id: "zero",
         name: "Zero",
+        color: "#22D3EE",
         role: "UI/UX Designer",
         cardImage: minni,
         profileImage: minni,
@@ -111,6 +117,7 @@ const teamMembers = [
     {
         id: "ray",
         name: "Ray",
+        color: "#60A5FA",
         role: "Full Stack Developer",
         cardImage: stich,
         profileImage: stich,
@@ -126,6 +133,7 @@ const teamMembers = [
     {
         id: "aria",
         name: "Aria",
+        color: "#F472B6",
         role: "Product Designer",
         cardImage: ox,
         profileImage: ox,
@@ -141,6 +149,7 @@ const teamMembers = [
     {
         id: "kai",
         name: "Kai",
+        color: "#C084FC",
         role: "Frontend Developer",
         cardImage: tiger,
         profileImage: tiger,
@@ -156,6 +165,7 @@ const teamMembers = [
     {
         id: "zayn",
         name: "Zayn",
+        color: "#2DD4BF",
         role: "Mobile Developer",
         cardImage: Mickey,
         profileImage: Mickey,

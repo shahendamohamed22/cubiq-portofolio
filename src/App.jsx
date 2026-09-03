@@ -3,7 +3,8 @@ import Hero from "./components/Hero";
 import Team from "./components/Team";
 import Projects from "./components/Projects";
 import About from "./components/about";
-
+import TeamMembers from "./components/TeamMembers";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Team />
+        <Services />
+        <TeamMembers />
         <Projects />
       </main>
     </>

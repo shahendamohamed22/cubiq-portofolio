@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-void: #050308;
-  --color-midnight: #0B0920;
-  --color-orchid: #A42198;
-  --color-magenta: #E41A94;
-  --color-electric: #17DAF1;
-  --color-silver: #A1A1AA;
-  --container-9xl: 100rem;
+  --color-void: #050A14;
+  --color-midnight: #0A1526;
+  --color-orchid: #0E4C7A;
+  --color-magenta: #1178B8;
+  --color-electric: #38BDF8;
+  --color-silver: #9CB0C4;
+  --container-9xl: 70rem;
+--font-sans: "Space Grotesk", sans-serif;
 }
 
 html {

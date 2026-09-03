@@ -41,7 +41,7 @@ function Hero() {
                         Creative Digital Team
                     </p>
 
-                    <h1 className="text-5xl font-bold leading-[0.95] tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-8xl">
+                    <h1 className="text-5xl font-bold leading-[0.95] tracking-tight text-white sm:text-6xl lg:text-6xl xl:text-7xl">
                         WE BUILD
                         <br />
                         <span className="bg-gradient-to-r from-electric via-orchid to-magenta bg-clip-text text-transparent">
@@ -69,7 +69,7 @@ function Hero() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.2 }}
-                    className="relative scale-125 mx-auto flex h-[420px] w-full max-w-[500px] items-center justify-center"
+                    className="relative scale-100 mx-auto flex h-[420px] w-full max-w-[500px] items-center justify-center"
                 >
                     <img src="/logo.png" alt="" />
                 </motion.div>
